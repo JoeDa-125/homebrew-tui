@@ -1,8 +1,8 @@
 class So < Formula
-  desc "A terminal interface for StackExchange"
-  homepage "https://github.com/samtay/so-hs"
-  url "https://github.com/samtay/so-hs/releases/download/0.1.0/so-0.1.0-darwin.tar.gz"
-  sha256 "4dfb4294dcb5d8159e0c811e7812b34955ae7219f96fc46ddcdfbddcdda37a80"
+  desc "A terminal interface for StackOverflow"
+  homepage "https://github.com/samtay/so"
+  url "https://github.com/samtay/so/releases/download/v0.3.3/so-v0.3.3-x86_64-apple-darwin.tar.gz"
+  sha256 "b9464b58a437065ac27f56700da6a78c5a127924e9f2d17ff874525395af0d5d"
 
   bottle :unneeded
 
@@ -11,6 +11,6 @@ class So < Formula
   end
 
   test do
-    system "#{bin}/so", "--help"
+    system "#{bin}/so", "--version"
   end
 end
