@@ -4,8 +4,6 @@ class Snake < Formula
   url "https://github.com/samtay/snake/releases/download/0.1.0/snake-0.1.0-darwin.tar.gz"
   sha256 "66de2a7a73f20374fb5100776e0a275026536f8acfca4ec527474950e6b0c267"
 
-  bottle :unneeded
-
   def install
     bin.install "snake"
   end
