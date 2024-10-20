@@ -7,7 +7,7 @@ class Tetris < Formula
   sha256 "70f4a2cdff83f02c3220575faec3c499396ca42daad35276f618884c5961aebe"
 
   def install
-    bin.install "tetris"
+    bin.install "tetris-0.1.6-MacOS" => "tetris"
   end
 
   test do
