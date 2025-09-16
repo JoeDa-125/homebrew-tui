@@ -4,7 +4,7 @@ class Tetris < Formula
   url "https://github.com/JoeDa-125/tetris/releases/download/v0.1.6/tetris",
     :using => :nounzip
 
-  sha256 "0f11d725716e51f1d03d6bcab082b4b4056d5582bef8b125dc20f6f6901efc90"
+  sha256 "fcf73fca9efaecaf6a1c68435d50e54ff4f5f17f842e1f66676b2e968110008d"
 
   def install
     bin.install "tetris"
